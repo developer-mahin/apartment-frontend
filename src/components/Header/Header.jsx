@@ -15,7 +15,7 @@ const Header = () => {
     <Box
       sx={{
         flexGrow: 1,
-        textAlign: "center"
+        textAlign: "center",
       }}
     >
       <AppBar
@@ -33,10 +33,10 @@ const Header = () => {
             color="inherit"
             aria-label="open drawer"
             sx={{
-                marginLeft: "15px",
-                '&:hover':{
-                    borderRadius: "10px"
-                }
+              marginLeft: "15px",
+              "&:hover": {
+                borderRadius: "10px",
+              },
             }}
           >
             <MenuIcon />
@@ -102,9 +102,22 @@ const Header = () => {
                 marginLeft: "15px",
               }}
             >
-              <Link to="/" className="property">
-                Add a Property
-              </Link>
+              <Button
+                variant="contained"
+                sx={{
+                  backgroundColor: "#666",
+                  boxShadow: "none",
+                  "&:hover": {
+                    backgroundColor: "#666",
+                    color: "#fff",
+                    boxShadow: "none",
+                  },
+                }}
+              >
+                <Link to="/" className="property">
+                  Add a Property
+                </Link>
+              </Button>
             </Box>
           </Box>
         </Toolbar>
