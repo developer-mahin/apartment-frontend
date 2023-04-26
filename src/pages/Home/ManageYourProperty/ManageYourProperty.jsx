@@ -38,6 +38,10 @@ const ManageYourProperty = () => {
                 xs: "1rem",
                 md: "0px",
               },
+              pb: {
+                xs: "2rem",
+                md: "4rem",
+              },
             }}
           >
             <SecondSharedComponents

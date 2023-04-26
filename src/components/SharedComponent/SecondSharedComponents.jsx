@@ -5,12 +5,7 @@ import { Link } from "react-router-dom";
 const SecondSharedComponents = ({ title, subtitle, linkText, image }) => {
   return (
     <Box
-      sx={{
-        pb: {
-          xs: "2rem",
-          md: "4rem",
-        },
-      }}
+      
     >
       <Grid container>
         <Grid item xs={12} md={6} sx={{}}>

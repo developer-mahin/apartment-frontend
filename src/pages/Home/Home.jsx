@@ -6,6 +6,7 @@ import RentalListings from "./RentalListings/RentalListings";
 import Homeownership from "./Homeownership/Homeownership";
 import ManageYourProperty from "./ManageYourProperty/ManageYourProperty";
 import PropertyManagers from "./PropertyManagers/PropertyManagers";
+import AllPagesLinks from "./AllPagesLinks/AllPagesLinks";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Homeownership />
       <ManageYourProperty />
       <PropertyManagers />
+      <AllPagesLinks/>
     </Box>
   );
 };
