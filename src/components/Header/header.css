@@ -1,0 +1,25 @@
+.nav-link {
+  color: #111;
+  text-decoration: none;
+  margin: 0px 1rem;
+}
+
+.property {
+  color: #fff;
+  background-color: #666;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.property:hover{
+  text-decoration: underline;
+  color:"#fff"
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-hyum1k-MuiToolbar-root {
+  padding: 0px;
+}
+
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.css-hyum1k-MuiToolbar-root {
+  min-height: 0px;
+}
